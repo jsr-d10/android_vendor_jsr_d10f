@@ -17,10 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so
 
-# Workaround
-PRODUCT_COPY_FILES += \
-    vendor/jsr/d10f/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
-
 # ADSP
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/adsprpcd:system/bin/adsprpcd \
