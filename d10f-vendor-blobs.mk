@@ -397,6 +397,8 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libthermalioctl.so:
 # Time services
 
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/time_daemon:system/bin/time_daemon
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libtime_genoff.so:system/lib/libtime_genoff.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
 # Venus (media) firmware
