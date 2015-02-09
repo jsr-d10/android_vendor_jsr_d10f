@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libbt-vendor.so:sys
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so
 
 
