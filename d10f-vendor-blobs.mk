@@ -388,6 +388,9 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libsensor_test.so:s
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
 
+# ALPS Azimuth Calculation Module
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libhscdtd.so:system/vendor/lib/libhscdtd.so
+
 # Thermal
 
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/thermal-engine:system/bin/thermal-engine
