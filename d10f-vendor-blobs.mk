@@ -364,7 +364,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmm-abl-oem.so:sy
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/irsc_util:system/bin/irsc_util
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so
-PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so
+# PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so //S-trace: disabled by 0095 patch
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so
@@ -377,6 +377,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libqmi_common_so.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
 
 # Radio
 
@@ -385,12 +386,16 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/qmuxd:system/bin/qmuxd
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/rfs_access:system/bin/rfs_access
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/rild:system/bin/rild
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/rmt_storage:system/bin/rmt_storage
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libril.so:system/lib/libril.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
 # Sensors
 
