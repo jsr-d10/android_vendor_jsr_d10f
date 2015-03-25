@@ -386,15 +386,17 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/qmuxd:system/bin/qmuxd
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/rfs_access:system/bin/rfs_access
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/rild:system/bin/rild
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/rmt_storage:system/bin/rmt_storage
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml
 #PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml
-PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libril.so:system/lib/libril.so
-PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
 # Sensors
