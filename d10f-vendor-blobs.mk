@@ -58,6 +58,8 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libbt-vendor.so:sys
 
 # Camera
 
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so
+
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
@@ -152,6 +154,11 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libjpegehw.so:syste
 
 
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_f4k37ab_qtech_t4k37_eeprom.so:system/vendor/lib/libmmcamera_f4k37ab_qtech_t4k37_eeprom.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_sunny_q13v03a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v03a_eeprom.so
+
+
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so
