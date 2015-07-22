@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9724.
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_q1v05a.so:system/vendor/lib/libmmcamera_ov9760_q1v05a.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_t4k37ab.so:system/vendor/lib/libmmcamera_t4k37ab.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so
