@@ -90,7 +90,12 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov5648
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so:system/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so:system/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so
-    
+
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so
+ 
 
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov8825_common.so:system/vendor/lib/libchromatix_ov8825_common.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so
@@ -166,6 +171,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_hi256.s
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so
+PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so
