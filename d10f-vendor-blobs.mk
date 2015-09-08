@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/etc/audio_effects.conf:
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/btnvtool:system/bin/btnvtool
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
-PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
 
 # Camera
 
