@@ -245,12 +245,15 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
-# Sensors (TheMuppets Xiaomi cancro)
+# Sensors (HighScreen Boost IIse V2.8/2.9)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/jsr/d10f/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
+
+# Sensors (TheMuppets Xiaomi cancro)
+PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
