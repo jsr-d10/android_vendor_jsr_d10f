@@ -47,8 +47,6 @@ PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/soundfx/libqcbassbo
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
-PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
-
 # Bluetooth
 
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/bin/btnvtool:system/bin/btnvtool
