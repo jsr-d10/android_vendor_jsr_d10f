@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
 
-# Color convertor
+# Color convertor (V6.7.1.0)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so
@@ -153,9 +153,9 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/jsr/d10f/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+    vendor/jsr/d10f/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # GPS (V6.7.1.0)
 PRODUCT_COPY_FILES += \
@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
 
-# Keystore
+# Keystore (V6.7.1.0)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
@@ -199,7 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
-# MediaS (V6.7.1.0)
+# Media (V6.7.1.0)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -214,7 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
-# Perf (V6.7.1.0)
+# Perf (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/jsr/d10f/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so
