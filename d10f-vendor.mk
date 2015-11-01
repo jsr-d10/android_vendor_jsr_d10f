@@ -17,8 +17,9 @@
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     TimeService \
-    QSensorTest
-
+    QSensorTest \
+    PPPreference
+    
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libqminvapi \
