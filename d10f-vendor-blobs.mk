@@ -248,7 +248,8 @@ PRODUCT_COPY_FILES += \
 # Sensors (HighScreen Boost IIse V2.8/2.9)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/jsr/d10f/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
+    vendor/jsr/d10f/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libhscdtd.so:system/vendor/lib/libhscdtd.so
 
 # Sensors (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
