@@ -51,35 +51,26 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/jsr/d10f/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (V7.0.5.0)
+# Camera (Innos D10F 3.1):
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/jsr/d10f/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
+    vendor/jsr/d10f/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/jsr/d10f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/jsr/d10f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/jsr/d10f/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/jsr/d10f/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libFaceDeform.so:system/vendor/lib/libFaceDeform.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_eeprom.so:system/vendor/lib/libmmcamera_ov9760_eeprom.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_q1v05a.so:system/vendor/lib/libmmcamera_ov9760_q1v05a.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_s5k3h2yx_eeprom.so:system/vendor/lib/libmmcamera_s5k3h2yx_eeprom.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_s5k3h2yx_owt8a01a.so:system/vendor/lib/libmmcamera_s5k3h2yx_owt8a01a.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
@@ -89,22 +80,75 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
-
-# Camera (TheMuppets Motorola msm8226-common)
-PRODUCT_COPY_FILES += \
-    vendor/jsr/d10f/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 
-# Camera firmware (V7.0.5.0)
+# Hardware-specific camera libs (Innos D10F 3.1):
+# HighScreen Boost IIse rev.A/rev.B, i-mobile IQ 6.3 MAIN:
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_t4k37ab.so:system/vendor/lib/libmmcamera_t4k37ab.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_f4k37ab_qtech_t4k37_eeprom.so:system/vendor/lib/libmmcamera_f4k37ab_qtech_t4k37_eeprom.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_t4k37ab_common.so:system/vendor/lib/libchromatix_t4k37ab_common.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_t4k37ab_default_video.so:system/vendor/lib/libchromatix_t4k37ab_default_video.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_t4k37ab_preview.so:system/vendor/lib/libchromatix_t4k37ab_preview.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_t4k37ab_snapshot.so:system/vendor/lib/libchromatix_t4k37ab_snapshot.so
+
+# HighScreen Boost IIse rev.C MAIN:
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_sunny_q13v03a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v03a_eeprom.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:system/vendor/lib/libchromatix_ov13850_default_video.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_hfr_120fps.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_hfr_60fps.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_hfr_90fps.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_liveshot.so:system/vendor/lib/libchromatix_ov13850_liveshot.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_video_hd.so:system/vendor/lib/libchromatix_ov13850_video_hd.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov13850_zsl.so:system/vendor/lib/libchromatix_ov13850_zsl.so
+
+# HighScreen Boost IIse rev.A/rev.B FRONT:
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:system/vendor/lib/libchromatix_ov2720_default_video.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:system/vendor/lib/libchromatix_ov2720_hfr.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov2720_liveshot.so:system/vendor/lib/libchromatix_ov2720_liveshot.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so
+
+# HighScreen Boost IIse rev.C, i-mobile IQ 6.3 FRONT:
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+
+# Camera firmware (Innos D10F 3.1)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw
+    vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw    
+
+# Camera (V7.0.5.0)
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libFaceDeform.so:system/vendor/lib/libFaceDeform.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_eeprom.so:system/vendor/lib/libmmcamera_ov9760_eeprom.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_q1v05a.so:system/vendor/lib/libmmcamera_ov9760_q1v05a.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_s5k3h2yx_eeprom.so:system/vendor/lib/libmmcamera_s5k3h2yx_eeprom.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_s5k3h2yx_owt8a01a.so:system/vendor/lib/libmmcamera_s5k3h2yx_owt8a01a.so \
 
 # Chromatix (V7.0.5.0)
 PRODUCT_COPY_FILES += \
