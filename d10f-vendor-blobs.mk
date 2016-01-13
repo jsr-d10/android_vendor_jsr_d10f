@@ -297,6 +297,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi (V7.0.5.0)
 PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
