@@ -225,7 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/jsr/d10f/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
-# Qualcomm (ZTE Nubia Z7 Max)
+# Qualcomm (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/jsr/d10f/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -243,7 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
 
-# Radio (ZTE Nubia Z7 Max)
+# Radio (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/jsr/d10f/proprietary/bin/qmuxd:system/bin/qmuxd \
