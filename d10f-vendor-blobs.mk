@@ -247,6 +247,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/jsr/d10f/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/jsr/d10f/proprietary/bin/radish:system/bin/radish \
+    vendor/jsr/d10f/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/jsr/d10f/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/jsr/d10f/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
