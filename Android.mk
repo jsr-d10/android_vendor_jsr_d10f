@@ -64,12 +64,34 @@ else
 PREBUILT_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE        := libadsprpc
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libadsprpc.so
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE        := libdisp-aba
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
 LOCAL_SRC_FILES     := proprietary/vendor/lib/libdisp-aba.so
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libmm-abl
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libmm-abl.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
