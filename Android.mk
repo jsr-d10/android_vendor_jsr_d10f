@@ -18,6 +18,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter d10f boost2se,$(TARGET_DEVICE)),)
 
+ifeq ($(QCPATH),)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := jsr
@@ -56,6 +58,56 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
+
+else
+
+PREBUILT_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libdisp-aba
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libdisp-aba.so
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libmmcamera2_stats_algorithm
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional debug
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libmmcamera2_stats_algorithm.so
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libsrsprocessing
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libsrsprocessing.so
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libulp2
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libulp2.so
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+endif
 
 endif
 
