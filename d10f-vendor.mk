@@ -27,6 +27,7 @@ $(call inherit-product, vendor/jsr/d10f/d10f-vendor-blobs.mk)
 
 else
 
+$(call inherit-product, vendor/qcom/proprietary/common/config/device-vendor-d10f.mk)
 $(call inherit-product, vendor/qcom/proprietary/common/config/device-vendor.mk)
 $(call inherit-product, vendor/qcom/prebuilt-msm8226/target/prebuilt.mk)
 $(call inherit-product, vendor/jsr/d10f/d10f-vendor-blobs-qc.mk)
