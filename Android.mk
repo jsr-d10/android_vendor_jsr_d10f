@@ -18,6 +18,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),d10f)
 
+ifeq ($(QCPATH),)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE).apk
@@ -60,5 +62,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
+
+endif
 
 endif
