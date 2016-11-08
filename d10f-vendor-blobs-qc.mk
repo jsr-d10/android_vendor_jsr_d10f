@@ -16,3 +16,11 @@
 
 # ALPS Azimuth Calculation Module
 PRODUCT_COPY_FILES += vendor/jsr/d10f/proprietary/vendor/lib/libhscdtd.so:system/vendor/lib/libhscdtd.so
+
+# Keystore (V6.7.1.0)
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
