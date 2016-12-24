@@ -219,6 +219,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     com.qualcomm.location \
     com.qualcomm.services.location \
-    TimeService
+    TimeService \
+    QSensorTest
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
