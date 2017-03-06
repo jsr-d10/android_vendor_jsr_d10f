@@ -324,5 +324,3 @@ PRODUCT_PACKAGES += \
     com.qualcomm.services.location \
     TimeService \
     QSensorTest
-
-$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
