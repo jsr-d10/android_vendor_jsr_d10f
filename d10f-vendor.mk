@@ -131,6 +131,30 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw    
 
+# Graphics (https://github.com/TheMuppets/proprietary_vendor_qcom_binaries/commit/4e0d5a1975230da8b83efbeddb62e42636a0ba64)
+ifeq ($(QCPATH),)
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
+endif
+
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/jsr/d10f/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
